@@ -1,0 +1,200 @@
+/*SIMPLIFIED TEMPLATE
+=================================================*/
+.context-course_{
+/*PNP TEMPLATE */ 				&281035,
+/*F14 ACG5065 ASARE*/			&312426, 
+/*F14 BUL4443 DARNELL*/			&312248,
+/*F14 BUL4443 DARNELL*/			&313258,
+/*F14 BUL6516 Dollinger*/		&313338,
+/*F14 ECP5705 ROMANO*/			&312989,
+/*F14 Ethics Team DARNELL*/		&312732,
+/*F14 ENT6930 MORRIS */			&265198,
+/*F14 FIN4504 YIN*/				&305802,
+/*F14 GEB6930 NIMALENDRAN*/		&305200,
+/*F14 GEB6930 AYTUG*/			&312984,
+/*F14 ISM4113 MUKHERJEE*/ 		&292478,
+/*F14 ISM6022 Bandyopadhyay*/	&312959,
+/*F14 MAN6266 LANAJ*/			&313082,
+/*F14 MAN6636 PHALIN*/			&304056,
+/*F14 MAN6930 PODSAKOFF*/ 		&265360,
+/*F14 ONLINE STUDENT CENTER*/	&219062,
+/*F14 QMB5303 PATHAK*/			&313015,
+/*F14 QMB6930 ???*/		    	&265217,
+/*F14 SLS1102 DILEO*/ 			&270375,
+/*F14 SLS1102 GUFFIN*/			&303782,
+
+/*S15 ACG5065 ASARE*/			&313657, &313906,
+/*S15 BUL5810 Thomas*/			&314261,
+/*S15 ENT6930 Kraft*/			&313860, &313861,
+/*S15 FIN5405*/					&314105,
+/*S15 FIN5437 Houston*/			&313936,
+/*S15 FIN6108 Nye*/				&314262,
+/*S15 GEB6930 FLORIG*/			&313658,
+/*S15 ISM5021 Cheng*/			&314259,
+/*S15 ISM6222 Means */			&314096,
+/*S15 MAN5245 EREZ*/			&313870,
+/*S15 MAN5425*/					&314260,
+/*S15 MAN6636 PHALIN*/			&313787,
+/*S15 MAR6862 COOKE*/			&313661 { 
+
+	.course-title.ellipsis {
+		color: white;
+		font-weight: 100;
+		font-family: "Lato", sans-serif;
+	}
+	.header-bar.flex-container {
+		background: #6CADD9;
+	}	
+		
+	.show-content.user_content.enhanced,
+	.message_wrapper {
+	padding: 0px 80px 30px 80px;
+	min-height: 350px;
+
+		p {
+			margin: 20px 0 0 0;
+			font-size: 120%;
+			line-height: 1.65em;
+			word-spacing: 0.05em;
+			letter-spacing: .01em;
+			// padding-left: 20px;
+			// padding-right: 20px;
+		}	
+			
+		img {
+			border: 1px solid rgb(180, 180, 180);
+			padding: 2px;
+			margin: 5px 20px 20px 0;
+			clear: both;}
+		
+		// Removes image styles for small, inline, Canvas-generated images
+		span.instructure_file_link_holder.link_holder img {
+			border: inherit;
+			padding: inherit;
+			margin: inherit;
+			clear: inherit;}
+		
+		h2, h3, h4 {
+			font-family: 'Lato', sans-serif;
+			// margin: 20px 90px 0px 90px;
+			clear: both;}
+		
+		h2 {
+			font-weight: 300;
+			color: black;
+			letter-spacing: 2px;
+			line-height: 1.1em;
+			font-size: 32px;
+			border-bottom: 2px solid #6CADD9;
+			clear: both; }
+					
+		h3 {
+			// margin-left: 100px;
+			margin-bottom: 0px;
+			// font-size: 18px;
+			// font-weight: 400;
+			line-height: 24px; 
+			letter-spacing: .5px;
+			// padding-bottom: 0px;
+			// position: relative;
+			border-bottom: 2px solid  #e5e5e5;}
+			
+		ul {
+			font-size: 120%;
+			margin: 10px 100px 0px 120px;
+			list-style: disc;}
+			
+		li {margin-top: 10px;}
+		
+		a {	
+			color: #0066cc;
+			text-decoration: underline;
+			transition: color .25s;}
+		
+		a:hover {color: #ff9d42;}
+		
+		.page-title {
+			width: calc(100% + 160px);
+			position: relative;
+			left: -80px;
+			padding: 10px 0 10px 80px;
+			margin: 0;
+			background: #6CADD9;
+			color: white;			 
+			// width: auto;
+			// max-width: none;
+			// height: auto;
+			// padding-left: 80px;
+			// padding-right: 20px;
+			// border: 0px solid #69A8D3;
+			// -ms-word-break: break-word;
+			// word-break: break-word;
+			// font-family: 'Lato', sans-serif;
+			// font-size: 3.5em !important;
+			// font-weight: 300;
+			// letter-spacing: 2px;
+			// line-height: 1.1em;
+			/* display: block; */}
+			
+			
+		/* TABLE MENUS */
+		
+		table#menu {
+			width: auto; 
+			height: auto;
+			border-collapse: collapse; 
+			border-spacing: 0;
+			margin: 20px auto;
+			text-align: center;}
+		
+		table#menu tbody{
+			background-color: whitesmoke;}
+		
+		table#menu td {
+			border: 2px solid #fdfdfd;
+			padding: 10px;}
+		
+		table#menu td a{
+			font-size: medium;
+			text-decoration: none;}
+		
+		table#menu tr:first-child {
+			width: auto;
+			height: auto;
+			font-family: "Lato", sans-serif;
+			background-color: #6CADD9;
+			color: white;
+			font-size: 18px;
+			letter-spacing: .1em;
+			font-weight: 300;}
+		
+		} /* end .show-content.user_content.enhanced */
+		
+			// HIDES DISCUSSION AVATAR AND AUTHOR
+		#discussion_topic { 
+			a.author, a.avatar, .discussion-pubdate {
+				display: none;}
+				}// END #discussion_topic
+		
+		
+		header.discussion-section.clearfix {
+			padding: 10px;
+			padding-left: 80px;
+			background: #6CADD9;
+			font-family: "Lato", sans-serif;
+			color: white;
+			letter-spacing: 1px;
+			// width: auto;
+			// height: auto;
+			// font-size: 1.5em;
+			// font-weight: 300;
+			// line-height: 1.1em;
+			// display: block;
+			}
+			
+		.topic h1.discussion-title {
+			font-weight: 300;}
+}} /* end .context-course_xxxxxx */
+	
+	
+#wiki_page_show li>a[href$=".pdf"]:before,#wiki_page_show li>a[href$=".PDF"]:before,#wiki_page_show li>a[href$=".pdf#"]:before,#wiki_page_show li>a[href$=".PDF#"]:before,#wiki_page_show li>a[href$=".pdf?"]:before,#wiki_page_show li>a[href$=".PDF?"]:before,#wiki_page_show li a[title$=".pdf"]:before,#wiki_page_show li a[title$=".PDF"]:before,#wiki_page_show li a[title$=".pdf#"]:before,#wiki_page_show li a[title$=".PDF#"]:before,#wiki_page_show li a[title$=".pdf?"]:before,#wiki_page_show li a[title$=".PDF?"]:before{color:#d90000;content:"\f200";display:inline-block;font-family:"canvas-icons";line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;margin-right:8px;font-size:large;}#wiki_page_show li>a[href$=".doc"]:before,#wiki_page_show li>a[href$=".DOC"]:before,#wiki_page_show li>a[href$=".docx"]:before,#wiki_page_show li>a[href$=".DOCX"]:before,#wiki_page_show li a[title$=".doc"]:before,#wiki_page_show li a[title$=".DOC"]:before,#wiki_page_show li a[title$=".docx"]:before,#wiki_page_show li a[title$=".DOCX"]:before{color:#150db5;content:"\f1f6";display:inline-block;font-family:"canvas-icons";line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;margin-right:8px;font-size:large;}#wiki_page_show li>a[href$=".xls"]:before,#wiki_page_show li>a[href$=".XLS"]:before,#wiki_page_show li>a[href$=".xlsx"]:before,#wiki_page_show li>a[href$=".XLSX"]:before,#wiki_page_show li>a[href$=".xlsm"]:before,#wiki_page_show li>a[href$=".XLSM"]:before,#wiki_page_show li>a[href$=".xlsb"]:before,#wiki_page_show li>a[href$=".XLSB"]:before,#wiki_page_show li a[title$=".xls"]:before,#wiki_page_show li a[title$=".XLS"]:before,#wiki_page_show li a[title$=".xlsx"]:before,#wiki_page_show li a[title$=".XLSX"]:before,#wiki_page_show li a[title$=".xlsm"]:before,#wiki_page_show li a[title$=".XLSM"]:before,#wiki_page_show li a[title$=".xlsb"]:before,#wiki_page_show li a[title$=".XLSB"]:before{color:#07532b;content:"\f1f4";display:inline-block;font-family:"canvas-icons";line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;margin-right:8px;font-size:large;}#wiki_page_show li>a[href$=".ppt"]:before,#wiki_page_show li>a[href$=".PPT"]:before,#wiki_page_show li>a[href$=".pptx"]:before,#wiki_page_show li>a[href$=".PPTX"]:before,#wiki_page_show li>a[href$=".pps"]:before,#wiki_page_show li>a[href$=".PPS"]:before,#wiki_page_show li>a[href$=".ppsx"]:before,#wiki_page_show li>a[href$=".PPSX"]:before,#wiki_page_show li a[title$=".ppt"]:before,#wiki_page_show li a[title$=".PPT"]:before,#wiki_page_show li a[title$=".pptx"]:before,#wiki_page_show li a[title$=".PPTX"]:before,#wiki_page_show li a[title$=".pps"]:before,#wiki_page_show li a[title$=".PPS"]:before,#wiki_page_show li a[title$=".ppsx"]:before,#wiki_page_show li a[title$=".PPSX"]:before{color:#f36b03;content:"\f1f5";display:inline-block;font-family:"canvas-icons";line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;margin-right:8px;font-size:large;}#wiki_page_show li>a[href$=".zip"]:before,#wiki_page_show li>a[href$=".ZIP"]:before,#wiki_page_show li a[title$=".zip"]:before,#wiki_page_show li a[title$=".ZIP"]:before{color:#424242;content:"\f1a8";display:inline-block;font-family:"canvas-icons";line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;margin-right:8px;font-size:large;}#wiki_page_show li>a[href$=".rss"]:before,#wiki_page_show li>a[href$=".RSS"]:before,#wiki_page_show li a[title$=".rss"]:before,#wiki_page_show li a[title$=".RSS"]:before{color:#eb8e00;content:"\f20d";display:inline-block;font-family:"canvas-icons";line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;margin-right:8px;font-size:large;}#wiki_page_show li>a[href^="mailto:"]:before,#wiki_page_show li>a[href^="MAILTO:"]:before,#wiki_page_show li a[title^="mailto:"]:before,#wiki_page_show li a[title^="MAILTO:"]:before{color:black;content:"\f233";display:inline-block;font-family:"canvas-icons";line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;margin-right:8px;font-size:large;}#wiki_page_show li>a[href^="youtube.com"]:before,#wiki_page_show li>a[href^="www.youtube.com"]:before,#wiki_page_show li>a[href^="http://www.youtube.com"]:before,#wiki_page_show li>a[href^="vimeo.com"]:before,#wiki_page_show li>a[href^="www.vimeo.com"]:before,#wiki_page_show li>a[href^="http://www.vimeo.com"]:before,#wiki_page_show li>a[href$="videolectures.asp"]:before,#wiki_page_show li>a[href^="warrington.video.ufl.edu"]:before,#wiki_page_show li>a[href^="https://warrington.video.ufl.edu"]:before,#wiki_page_show li a[title^="youtube.com"]:before,#wiki_page_show li a[title^="www.youtube.com"]:before,#wiki_page_show li a[title^="http://www.youtube.com"]:before,#wiki_page_show li a[title^="vimeo.com"]:before,#wiki_page_show li a[title^="www.vimeo.com"]:before,#wiki_page_show li a[title^="http://www.vimeo.com"]:before,#wiki_page_show li a[title$="videolectures.asp"]:before,#wiki_page_show li a[title^="warrington.video.ufl.edu"]:before,#wiki_page_show li a[title^="https://warrington.video.ufl.edu"]:before{color:black;content:"\f1d3";display:inline-block;font-family:"canvas-icons";line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;margin-right:8px;font-size:large;}
