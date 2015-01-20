@@ -1,159 +1,155 @@
 /*SIMPLIFIED TEMPLATE
 =================================================*/
 .context-course_{
-/*PNP TEMPLATE */ 				&281035,
-/*ONLINE STUDENT CENTER*/		&219062,
-/*WCBA Demo Site*/				&203626,
-
-/*S15 ACG5065 Asare*/			&313657, &313906,
-/*S15 BUL4443 Darnell*/			&315308,
-/*S15 BUL5810 Thomas*/			&314261,
-/*S15 ECO6716 Waldo*/			&315616,
-/*S15 ENT6930 Kraft*/			&313860, &313861,
-/*S15 FIN5405*/					&314105,
-/*S15 FIN5437 Houston*/			&313936,
-/*S15 FIN6108 Nye*/				&314262,
-/*S15 FIN6425 Stein*/			&315617,
-/*S15 GEB5212 McCawley*/		&315547,
-/*S15 GEB6930 Florig*/			&313658,
-/*S15 GEB6930 Ogan*/			&315311,
-/*S15 ISM5021 Cheng*/			&314259,
-/*S15 ISM6222 Means */			&314096,
-/*S15 MAN5245 Erez*/			&313870,
-/*S15 MAN5425*/					&314260,
-/*S15 MAN5501 Erenguc*/			&315430,
-/*S15 MAN6636 Phalin*/			&313787,
-/*S15 MAN6930 Podsakoff*/		&315717,
-/*S15 MAR6862 Cooke*/			&313661,
-/*S15 MAR6930 Shugan*/ 			&315223,
-/*S15 QMB6930 Ogan*/			&315419 { 
-
-	.course-title.ellipsis {
-		color: white;
-		font-weight: 100;
-		font-family: "Lato", sans-serif;
-	}
-	.header-bar.flex-container {
-		background: #6CADD9;
-	}	
-		
-	.show-content.user_content.enhanced,
-	.message_wrapper {
-	padding: 0px 80px 30px 80px;
-	top: -1px;
-
-		p {
-			margin: 20px 0 0 0;
-			font-size: 120%;
-			line-height: 1.65em;
-			word-spacing: 0.05em;
-			letter-spacing: .01em;}	
-			
-		img {
-			border: 1px solid rgb(180, 180, 180);
-			padding: 2px;
-			margin: 5px 20px 20px 0;
-			clear: both;}
-		
-		// Removes image styles for small, inline, Canvas-generated images
-		span.instructure_file_link_holder.link_holder img {
-			border: inherit;
-			padding: inherit;
-			margin: inherit;
-			clear: inherit;}
-		
-		h2, h3, h4 {
-			font-family: 'Lato', sans-serif;
-			clear: both;}
-		
-		h2 {
-			font-weight: 300;
-			color: black;
-			letter-spacing: 2px;
-			line-height: 1.1em;
-			font-size: 32px;
-			border-bottom: 2px solid #6CADD9;
-			clear: both; }
-					
-		h3 {
-			margin-bottom: 0px;
-			line-height: 24px; 
-			letter-spacing: .5px;
-			border-bottom: 2px solid  #e5e5e5;}
-			
-		ul {
-			font-size: 120%;
-			margin: 0 3%;}
-			
-		li {margin-top: 10px;}
-		
-		a {	
-			color: #0066cc;
-			text-decoration: underline;
-			transition: color .25s;}
-		
-		a:hover {color: #ff9d42;}
-		
-		.page-title {
-			width: calc(100% + 160px);
-			position: relative;
-			left: -80px;
-			padding: 10px 0 10px 80px;
-			margin: 0;
-			background: #6CADD9;
-			color: white;}
-			
-			
-		/* TABLE MENUS */
-		
-		table#menu {
-			width: auto; 
-			height: auto;
-			border-collapse: collapse; 
-			border-spacing: 0;
-			margin: 20px auto;
-			text-align: center;}
-		
-		table#menu tbody{
-			background-color: whitesmoke;}
-		
-		table#menu td {
-			border: 2px solid #fdfdfd;
-			padding: 10px;}
-		
-		table#menu td a{
-			font-size: medium;
-			text-decoration: none;}
-		
-		table#menu tr:first-child {
-			width: auto;
-			height: auto;
-			font-family: "Lato", sans-serif;
-			background-color: #6CADD9;
+	/*PNP TEMPLATE */ 				&281035,
+	/*ONLINE STUDENT CENTER*/		&219062,
+	/*WCBA Demo Site*/				&203626,
+	
+	/*S15 ACG5065 Asare*/			&313657, &313906,
+	/*S15 BUL4443 Darnell*/			&315308,
+	/*S15 BUL5810 Thomas*/			&314261,
+	/*S15 ECO6716 Waldo*/			&315616,
+	/*S15 ENT6930 Kraft*/			&313860, &313861,
+	/*S15 FIN5405*/					&314105,
+	/*S15 FIN5437 Houston*/			&313936,
+	/*S15 FIN6108 Nye*/				&314262,
+	/*S15 FIN6425 Stein*/			&315617,
+	/*S15 GEB5212 McCawley*/		&315547,
+	/*S15 GEB6930 Florig*/			&313658,
+	/*S15 GEB6930 Ogan*/			&315311,
+	/*S15 ISM5021 Cheng*/			&314259,
+	/*S15 ISM6222 Means */			&314096,
+	/*S15 MAN5245 Erez*/			&313870,
+	/*S15 MAN5425*/					&314260,
+	/*S15 MAN5501 Erenguc*/			&315430,
+	/*S15 MAN6636 Phalin*/			&313787,
+	/*S15 MAN6930 Podsakoff*/		&315717,
+	/*S15 MAR6862 Cooke*/			&313661,
+	/*S15 MAR6930 Shugan*/ 			&315223,
+	/*S15 QMB6930 Ogan*/			&315419 { 
+	
+		.course-title.ellipsis {
 			color: white;
-			font-size: 18px;
-			letter-spacing: .1em;
-			font-weight: 300;}
-		
-		} /* end .show-content.user_content.enhanced */
-		
-			// HIDES DISCUSSION AVATAR AND AUTHOR
+			font-weight: 100;
+			font-family: "Lato", sans-serif;
+		}
+		.header-bar.flex-container {
+			background: #6CADD9;
+		}	
+			
+		.show-content.user_content.enhanced,
+		.message_wrapper {
+		padding: 0px 80px 30px 80px;
+		top: -1px;
+	
+			p {
+				margin: 20px 0 0 0;
+				font-size: 120%;
+				line-height: 1.65em;
+				word-spacing: 0.05em;
+				letter-spacing: .01em;}	
+				
+			img {
+				border: 1px solid rgb(180, 180, 180);
+				padding: 2px;
+				margin: 5px 20px 20px 0;
+				clear: both;}
+			
+			// Removes image styles for small, inline, Canvas-generated images
+			span.instructure_file_link_holder.link_holder img {
+				border: inherit;
+				padding: inherit;
+				margin: inherit;
+				clear: inherit;}
+			
+			h2, h3, h4 {
+				font-family: 'Lato', sans-serif;
+				clear: both;}
+			
+			h2 {
+				font-weight: 300;
+				color: black;
+				letter-spacing: 2px;
+				line-height: 1.1em;
+				font-size: 32px;
+				border-bottom: 2px solid #6CADD9;
+				clear: both; }
+						
+			h3 {
+				margin-bottom: 0px;
+				line-height: 24px; 
+				letter-spacing: .5px;
+				border-bottom: 2px solid  #e5e5e5;}
+				
+			ul {
+				font-size: 120%;
+				margin: 0 3%;}
+				
+			li {margin-top: 10px;}
+			
+			a {	
+				color: #0066cc;
+				text-decoration: underline;
+				transition: color .25s;}
+			
+			a:hover {color: #ff9d42;}
+			
+			.page-title {
+				width: calc(100% + 160px);
+				position: relative;
+				left: -80px;
+				padding: 10px 0 10px 80px;
+				margin: 0;
+				background: #6CADD9;
+				color: white;}
+				
+				
+			/* TABLE MENUS */
+			
+			table#menu {
+				width: auto; 
+				height: auto;
+				border-collapse: collapse; 
+				border-spacing: 0;
+				margin: 20px auto;
+				text-align: center;}
+			
+			table#menu tbody{
+				background-color: whitesmoke;}
+			
+			table#menu td {
+				border: 2px solid #fdfdfd;
+				padding: 10px;}
+			
+			table#menu td a{
+				font-size: medium;
+				text-decoration: none;}
+			
+			table#menu tr:first-child {
+				width: auto;
+				height: auto;
+				font-family: "Lato", sans-serif;
+				background-color: #6CADD9;
+				color: white;
+				font-size: 18px;
+				letter-spacing: .1em;
+				font-weight: 300;}
+		} // end .show-content.user_content.enhanced */
+	
+		// HIDES DISCUSSION AVATAR AND AUTHOR
 		#discussion_topic { 
-			a.author, a.avatar, .discussion-pubdate {
-				display: none;}
-				}// END #discussion_topic
-		
-		
-		header.discussion-section.clearfix {
-			padding: 10px;
-			padding-left: 80px;
-			background: #6CADD9;
-			font-family: "Lato", sans-serif;
-			color: white;
-			letter-spacing: 1px;
+			a.author, 
+			a.avatar, 
+			.pull-right .discussion-pubdate {
+				display: inline;
 			}
-			
-		.topic h1.discussion-title {
-			font-weight: 300;}
-	}
-} /* end .context-course_xxxxxx */
+			.pull-right .discussion-pubdate {
+				color: #333333;
+			}
+			h1.discussion-title {
+				color: inherit;
+				line-height: 30px;
+			}
+		}// end #discussion_topic
+	} // end course-id
+} // end .context-course_
