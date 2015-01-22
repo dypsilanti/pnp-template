@@ -5,7 +5,7 @@
 	/*ONLINE STUDENT CENTER*/		&219062,
 	/*WCBA Demo Site*/				&203626,
 	
-	/*S15 ACG5065 Asare*/			&313657, &313906,
+	/*S15 ACG5065 Asare*/			&313657, &313906, &315828,
 	/*S15 BUL4443 Darnell*/			&315308,
 	/*S15 BUL5810 Thomas*/			&314261,
 	/*S15 ECO6716 Waldo*/			&315616,
@@ -136,20 +136,5 @@
 				font-weight: 300;}
 		} // end .show-content.user_content.enhanced */
 	
-		// HIDES DISCUSSION AVATAR AND AUTHOR
-		#discussion_topic { 
-			a.author, 
-			a.avatar, 
-			.pull-right .discussion-pubdate {
-				display: block;
-			}
-			.pull-right .discussion-pubdate {
-				color: #333333;
-			}
-			h1.discussion-title {
-				color: inherit;
-				line-height: 30px;
-			}
-		}// end #discussion_topic
 	} // end course-id
 } // end .context-course_
