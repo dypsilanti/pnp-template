@@ -30,21 +30,21 @@
 	/*S15 MAR6930 Shugan*/ 			&315223,
 	/*S15 QMB6930 Ogan*/			&315419,
 	/*S15 REE6208 Archer*/			&314958, 314960 { 
-	
-		.course-title.ellipsis {
-			color: white;
-			font-weight: 100;
-			font-family: "Lato", sans-serif;
-		}
-		.header-bar.flex-container {
-			background: #6CADD9;
-		}	
-			
-		.show-content.user_content.enhanced,
-		.message_wrapper {
-		padding: 0px 80px 30px 80px;
-		top: -1px;
-	
+		#wiki_page_show {
+			.course-title.ellipsis {
+				color: white;
+				font-weight: 100;
+				font-family: "Lato", sans-serif;
+			}
+			.header-bar.flex-container {
+				background: #6CADD9;
+			}	
+				
+			.show-content.user_content.enhanced,
+			.message_wrapper {
+			padding: 0px 80px 30px 80px;
+			top: -1px;}
+		
 			p {
 				margin: 20px 0 0 0;
 				font-size: 120%;
@@ -137,7 +137,6 @@
 				font-size: 18px;
 				letter-spacing: .1em;
 				font-weight: 300;}
-		} // end .show-content.user_content.enhanced */
-	
+		} //end #wiki_page_show
 	} // end course-id
 } // end .context-course_
