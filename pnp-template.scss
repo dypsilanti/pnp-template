@@ -4,6 +4,7 @@
 	/*PNP TEMPLATE */ 				&281035,
 	/*ONLINE STUDENT CENTER*/		&219062,
 	/*WCBA Demo Site*/				&203626,
+	/*PDB15*/						&315985,
 	
 	/*S15 ACG5065 Asare*/			&313657, &313906, &315828,
 	/*S15 BUL4443 Darnell*/			&315308,
@@ -51,12 +52,18 @@
 				line-height: 1.65em;
 				word-spacing: 0.05em;
 				letter-spacing: .01em;}	
-				
+			
 			img {
 				border: 1px solid rgb(180, 180, 180);
 				padding: 2px;
 				margin: 5px 20px 20px 0;
-				clear: both;}
+				clear: both;
+				max-width: 100% !important;}
+			.column	img {
+				border: 0;
+				padding: 0;
+				margin: 0;
+			}
 			
 			// Removes image styles for small, inline, Canvas-generated images
 			span.instructure_file_link_holder.link_holder img {
